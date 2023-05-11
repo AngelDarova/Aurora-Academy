@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+h1, span{
+	font-family: 'Italianno', cursive;
+}
+body{
+	background-color: dodgerblue;
+    background-image: url("/img/FondoA.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+	background-position: right top;
+}
+span{
+	display: block;
+}
+input[type="email"], input[type="password"] {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+	max-width: 400px;
+	margin: 20px auto;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #888;
+	display: block;
+  }
+
+  input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  .login{
+	background-color: rgba(18, 88, 152, 1);
+	margin: 20px;
+	border-radius: 20px 20px 20px 20px;
+	padding: 20px;
+	width: auto 500px;
+  }
+  
